@@ -1,0 +1,57 @@
+body{
+    background-color: rgba(193, 193, 218, 0.301);
+}
+.btn{
+    color: #fff;
+    text-align: center;
+    width: 25%;
+    background-color: #f2a900;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.nav{
+    color: rgb(0, 102, 255);
+    left: 0px;
+    top: 0px;
+    right:0px;
+    background-color: blue;
+    align-items: center;
+    
+}
+a[href]{
+    
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold; 
+    display:inline-block;
+    padding: 20px;
+}
+
+.row{
+    position: absolute;
+    left: 8px;
+    top: 130px;
+    right:-1px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+img{
+    padding-bottom: 20px;
+
+}
+.search{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    position: absolute;
+    left: 200px;
+    top: 80px;
+    right:px;
+    size: 3000px;
+    border-radius: 20px;
+    border-color: gold;
+    background-color: rgba(255, 0, 0, 0.158);
+    
+}
